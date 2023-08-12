@@ -23,9 +23,3 @@ def services(request):
         'name' : 'Services',
     }
     return render(request, 'services.html', context)
-
-def contact(request):
-    context = {
-        'name' : 'Contact',
-    }
-    return render(request, 'contact.html', context)
